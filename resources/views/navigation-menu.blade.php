@@ -20,6 +20,10 @@
                         Category
                     </x-jet-nav-link>
 
+                    <x-jet-nav-link href="{{ route('brand.index') }}" :active="request()->routeIs('brand.index')">
+                        Brand
+                    </x-jet-nav-link>
+
                 </div>
             </div>
 
